@@ -190,7 +190,7 @@ class Converter {
     const { provider } = this;
     const start = input.indexOf('<svg');
 
-    let html = `<!DOCTYPE html>
+    let html = `<!DOCTYPE html><head> <meta charset="UTF-8"> </head>
 <base href="${options.baseUrl}">
 <style>
 * { margin: 0; padding: 0; }
